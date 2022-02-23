@@ -177,5 +177,64 @@ nav a:hover {
 
 .text-wrap-middle > h1 {
   font-size: 50px;
-  font-weight: bold;
+  font-weight: 700;
+}
+
+.fourth-section {
+  min-height: 900px;
+  background-color: rgba(128, 128, 128, 0.226);
+}
+
+.fourth-text-wrap {
+  max-width: 65%;
+  max-height: 30%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.fourth-text-wrap > h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+#fourth-img {
+  margin: auto;
+  width: 50%;
+  height: 80%;
+  object-fit: cover;
+  transform: translate(0%, 0%);
+}
+
+#adventure {
+  width: 40%;
+  height: 60px;
+  margin: 0 auto;
+  padding-top: 10px;
+  background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+#adventure > p {
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 10%;
+}
+
+#btn-bottom {
+  width: 20%;
+  height: 100%;
+  padding-top: 5px;
+  align-content: center;
+
+  margin: auto;
+  margin-bottom: 10%;
+}
+
+footer {
+  min-height: 546px;
+  background-color: crimson;
+  background-size: cover;
 }
