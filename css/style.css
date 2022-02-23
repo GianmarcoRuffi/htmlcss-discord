@@ -5,6 +5,8 @@
   box-sizing: border-box;
 }
 
+/* Body */
+
 body {
   font-size: 20px;
   color: #23272a;
@@ -26,6 +28,8 @@ body {
   display: table;
   clear: both;
 }
+
+/* Header */
 
 header {
   background-color: rgba(49, 97, 224, 255);
@@ -103,6 +107,8 @@ nav a:hover {
   color: #fff;
 }
 
+/* Jumbotron */
+
 #jumbotron h1 {
   font-size: 60px;
   margin-top: 50px;
@@ -126,6 +132,8 @@ nav a:hover {
   margin-bottom: 15px;
   line-height: 32px;
 }
+
+/* Main sections */
 
 .main-section {
   min-height: 750px;
@@ -233,8 +241,95 @@ nav a:hover {
   margin-bottom: 10%;
 }
 
+/*arrow */
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/* Footer */
+
 footer {
-  min-height: 546px;
-  background-color: crimson;
-  background-size: cover;
+  background-color: #23272a;
+  height: 800px;
+  width: 100%;
+}
+
+.footer-container {
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 70px;
+  border-bottom: 1px solid #7289da;
+  height: 500px;
+}
+
+.left-col {
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+
+.right-col {
+  width: 20%;
+  height: 100%;
+}
+
+footer h4 {
+  color: #7289da;
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+footer h3 {
+  color: #7289da;
+  font-weight: bolder;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 10px 0;
+}
+
+footer ul li {
+  padding: 8px 0;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+footer span {
+  color: white;
+}
+
+.flag {
+  width: 24px;
+  height: 16px;
+}
+
+.social {
+  margin-top: 10px;
+}
+
+.social ul {
+  padding-left: 0;
+}
+
+.social ul li {
+  display: inline;
+  list-style: none;
+  margin: 0 10px;
 }
