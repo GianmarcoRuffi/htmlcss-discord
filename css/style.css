@@ -8,7 +8,7 @@
 body {
   font-size: 20px;
   color: #23272a;
-  font-family: Whitney, Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -118,7 +118,7 @@ nav a:hover {
   max-width: 780px;
   text-align: center;
   color: #ffffff;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 #jumbo-text {
