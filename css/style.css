@@ -61,6 +61,15 @@ nav ul li {
   margin-left: 3%;
 }
 
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
 .btn {
   display: inline-block;
   border-radius: 40px;
@@ -86,11 +95,17 @@ nav ul li {
 #white-black.btn {
   color: #23272a;
   background-color: #fff;
+  margin-right: 3%;
 }
 
 #black-white.btn {
   background-color: #23272a;
   color: #fff;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: 50px;
 }
 
 #jumbotron {
@@ -104,4 +119,10 @@ nav ul li {
   text-align: center;
   color: #ffffff;
   padding-top: 100px;
+}
+
+#jumbo-text {
+  margin-top: 35px;
+  margin-bottom: 15px;
+  line-height: 32px;
 }
