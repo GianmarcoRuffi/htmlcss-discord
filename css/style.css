@@ -128,7 +128,7 @@ nav a:hover {
 }
 
 .main-section {
-  min-height: 650px;
+  min-height: 750px;
   background-color: white;
 }
 
@@ -161,4 +161,21 @@ nav a:hover {
 
 .text-wrap > h1 {
   font-size: 50px;
+  font-weight: bold;
+}
+
+.text-wrap-middle {
+  max-width: 25%;
+  max-height: 50%;
+  float: left;
+  position: relative;
+  left: 10%;
+  margin-top: 2%;
+  margin-right: 10%;
+  margin-left: 5%;
+}
+
+.text-wrap-middle > h1 {
+  font-size: 50px;
+  font-weight: bold;
 }
