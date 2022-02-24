@@ -108,8 +108,12 @@ nav a:hover {
 }
 
 .wave {
-  color: gray;
-  opacity: 20%;
+  color: #e5e5e5;
+}
+
+.wave-rotate {
+  color: #e5e5e5;
+  transform: rotate(180deg);
 }
 
 /* Jumbotron */
@@ -198,7 +202,7 @@ nav a:hover {
 
 .fourth-section {
   min-height: 900px;
-  background-color: rgba(128, 128, 128, 0.226);
+  background-color: #e5e5e5;
 }
 
 .fourth-text-wrap {
