@@ -271,7 +271,7 @@ nav a:hover {
 
 footer {
   background-color: #23272a;
-  height: 800px;
+  height: 600px;
   width: 100%;
 }
 
@@ -280,20 +280,18 @@ footer {
   width: 80%;
   padding-top: 70px;
   border-bottom: 1px solid #7289da;
-  height: 500px;
+  height: 450px;
 }
 
 .left-col {
-  width: 30%;
-  height: 100%;
+  width: 40%;
   float: left;
-  display: inline-block;
 }
 
 .right-col {
-  width: 20%;
-  height: 80%;
-  display: inline-block;
+  float: right;
+  width: 10%;
+  margin-left: 5%;
 }
 
 footer h4 {
@@ -346,4 +344,10 @@ footer span {
   display: inline;
   list-style: none;
   margin: 0 10px;
+}
+
+.bottom-footer {
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 30px;
 }
